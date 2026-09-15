@@ -1,0 +1,17 @@
+name: Portfolio validation
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate publication and measurement contract
+        run: |
+          python3 scripts/validate-portfolio.py
+          python3 scripts/test-search-windows.py
+          python3 scripts/compare-search-windows.py data/search-checkpoint-2026-09-14.json
+          node scripts/verify-release-gate.example.js examples/release-gate.example.json

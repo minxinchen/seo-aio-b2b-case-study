@@ -1,3 +1,5 @@
+> 2026-09-16 狀態更新：單產品實驗已於 8/21 發布，成效待驗證；最新 [實驗紀錄](../experiments/single-product-aio.md) 與 [結果](results.md) 優先於下方歷史方法敘述。
+
 # AIO 方法：讓搜尋引擎與 AI 少猜一點
 
 ## 目標
@@ -103,9 +105,9 @@ GSC 不只是成果報表。它用來觀察 Google 實際知道哪些 URL、哪�
 
 ---
 
-## 尚未執行的 AIO 實驗
+## 已發布、成效待驗證的 AIO 實驗
 
-我另外提出過一個還沒有執行的想法：
+我另外提出、並於 2026-08-21 小範圍發布的實驗：
 
 > 只選一個產品作為 experimental group，在不虛構 Offer、price、review、rating 的前提下，強化 visible FAQ、HTML information structure 與 semantic clarity；其他可比較產品保持不變，再觀察後續 GSC 與 AI/search visibility 是否出現差異。
 
@@ -116,9 +118,9 @@ Agent 當時偏向正式環境的 zero-error Rich Results 策略，沒有支持�
 - 正式環境驗證：盡量降低已知錯誤
 - 實驗：控制差異，取得新的資訊
 
-所以這個想法目前保留為**未執行、未驗證假設**，不列入成果。
+這個實驗已完成技術交付，但效果仍是**未驗證假設**，不列入搜尋成效。
 
-→ [單一產品 AIO 實驗假設](../hypotheses/single-product-aio-experiment.md)
+→ [單一產品 AIO 實驗現況](../experiments/single-product-aio.md)
 
 ---
 

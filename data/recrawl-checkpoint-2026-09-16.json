@@ -1,0 +1,28 @@
+{
+  "author": "Nio",
+  "prepared_by": "Codex",
+  "checked_on": "2026-09-16",
+  "source": "GSC Google Index view; manually inspected",
+  "pages": [
+    {
+      "page_id": "english-1",
+      "indexed": true,
+      "last_crawl_date": "2026-09-14",
+      "advanced": true
+    },
+    {
+      "page_id": "english-2",
+      "indexed": true,
+      "last_crawl_date": "2026-09-14",
+      "advanced": true
+    },
+    {
+      "page_id": "english-4",
+      "indexed": true,
+      "last_crawl_date": "2026-08-04",
+      "advanced": false
+    }
+  ],
+  "status": "2_of_3_advanced",
+  "causal_effect_established": false
+}

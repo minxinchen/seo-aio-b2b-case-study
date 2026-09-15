@@ -1,0 +1,103 @@
+{
+  "author": "Nio",
+  "prepared_by": "Codex",
+  "updated_at": "2026-09-16",
+  "source_kind": "deidentified_GSC_UI_transcription",
+  "performance_recorded_on": "2026-09-14",
+  "complete_through": "2026-09-11",
+  "before_window": {
+    "start": "2026-08-01",
+    "end": "2026-08-11"
+  },
+  "after_window": {
+    "start": "2026-09-01",
+    "end": "2026-09-11"
+  },
+  "cohorts": {
+    "sitewide": {
+      "before": {
+        "clicks": 60,
+        "impressions": 5562,
+        "average_position": 9.7
+      },
+      "after": {
+        "clicks": 96,
+        "impressions": 6236,
+        "average_position": 6.7
+      }
+    },
+    "english_directory": {
+      "before": {
+        "clicks": 9,
+        "impressions": 1760,
+        "average_position": 17.1
+      },
+      "after": {
+        "clicks": 10,
+        "impressions": 379,
+        "average_position": 7.2
+      }
+    },
+    "english_mvp": {
+      "before": {
+        "clicks": 2,
+        "impressions": 705
+      },
+      "after": {
+        "clicks": 1,
+        "impressions": 135
+      }
+    }
+  },
+  "pages": [
+    {
+      "page_id": "english-1",
+      "before": {
+        "clicks": 0,
+        "impressions": 308
+      },
+      "after": {
+        "clicks": 0,
+        "impressions": 6
+      }
+    },
+    {
+      "page_id": "english-2",
+      "before": {
+        "clicks": 0,
+        "impressions": 169
+      },
+      "after": {
+        "clicks": 0,
+        "impressions": 0
+      }
+    },
+    {
+      "page_id": "english-3",
+      "before": {
+        "clicks": 1,
+        "impressions": 126
+      },
+      "after": {
+        "clicks": 1,
+        "impressions": 129
+      }
+    },
+    {
+      "page_id": "english-4",
+      "before": {
+        "clicks": 1,
+        "impressions": 102
+      },
+      "after": {
+        "clicks": 0,
+        "impressions": 0
+      }
+    }
+  ],
+  "limitations": [
+    "GSC table/query privacy thresholds mean visible rows are not a complete brand/non-brand aggregate.",
+    "No GA4 or CRM conversion data is connected, so this checkpoint makes no inquiry, conversion, or revenue claim.",
+    "The three recrawl requests were accepted on 2026-09-14; Google controls actual recrawl and ranking timing."
+  ]
+}
