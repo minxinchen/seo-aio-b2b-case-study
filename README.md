@@ -66,7 +66,7 @@
 ## 工作方法與工具
 
 ```mermaid
-flowchart LR
+flowchart TB
     A[定義問題與基準] --> B[提出可驗證假設]
     B --> C[小範圍修改與回滾]
     C --> D[匿名公開驗收]
